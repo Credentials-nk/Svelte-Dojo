@@ -1,10 +1,10 @@
 <script lang="ts">
-  let { checked = $bindable() } = $props();
+  let { checked = $bindable(), text = "Check me" } = $props();
 </script>
 
 <div class="card">
   <label>
     <input type="checkbox" bind:checked />
-    Yes! Send me regular email spam
+    {text}
   </label>
 </div>

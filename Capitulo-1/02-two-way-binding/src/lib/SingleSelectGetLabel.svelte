@@ -7,13 +7,13 @@
     selected = $bindable(),
     options,
     getLabel = (item: Option) => item.label,
-    name = "",
   } = $props();
 </script>
 
-{#each options as option}
-  <label>
-    <input type="radio" {name} value={option} bind:group={selected} />
-    {getLabel(option)}
-  </label>
-{/each}
+<select bind:value={selected}>
+  {#each options as option}
+    <option value={option}>
+      {getLabel(option)}
+    </option>
+  {/each}
+</select>

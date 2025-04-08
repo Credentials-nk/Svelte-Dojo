@@ -11,7 +11,7 @@
 <div
   style="display: flex;  align-items: flex-start; border: 1px solid #ccc;  border-radius: 8px;"
 >
-  <CheckboxInput bind:checked={yes} />
+  <CheckboxInput bind:checked={yes} text="Yes! Send me regular email spam" />
 </div>
 
 {#if yes}

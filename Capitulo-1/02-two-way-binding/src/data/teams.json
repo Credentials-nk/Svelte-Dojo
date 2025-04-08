@@ -1,0 +1,12 @@
+[
+  { "id": 1, "country": "Brazil", "cups": 5, "emoji": "🏆🏆🏆🏆🏆" },
+  { "id": 2, "country": "Germany", "cups": 4, "emoji": "🏆🏆🏆🏆" },
+  { "id": 3, "country": "Italy", "cups": 4, "emoji": "🏆🏆🏆🏆" },
+  { "id": 4, "country": "Argentina", "cups": 3, "emoji": "🏆🏆🏆" },
+  { "id": 5, "country": "France", "cups": 2, "emoji": "🏆🏆" },
+  { "id": 6, "country": "Uruguay", "cups": 2, "emoji": "🏆🏆" },
+  { "id": 7, "country": "England", "cups": 1, "emoji": "🏆" },
+  { "id": 8, "country": "Spain", "cups": 1, "emoji": "🏆" },
+  { "id": 9, "country": "Netherlands", "cups": 0, "emoji": "—" },
+  { "id": 10, "country": "Croatia", "cups": 0, "emoji": "—" }
+]
