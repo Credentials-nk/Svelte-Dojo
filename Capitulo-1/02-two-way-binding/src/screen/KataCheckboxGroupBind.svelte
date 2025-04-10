@@ -13,8 +13,9 @@
     Selected: {selectedIds
       .map((id) => teams.find((team) => team.id === id)?.country)
       .filter(Boolean)
-      .join(" - ")}</span
-  >
+      .join(" - ")}
+  </span>
+
   <hr />
 
   <div

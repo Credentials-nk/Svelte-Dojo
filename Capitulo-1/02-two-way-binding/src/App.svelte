@@ -6,6 +6,8 @@
   import KataRadioGroupBind from "./screen/KataRadioGroupBind.svelte";
   import KataSelectGetLabelBind from "./screen/KataSelectGetLabelBind.svelte";
   import KataSelectLabelKeyBind from "./screen/KataSelectLabelKeyBind.svelte";
+  import KataSelectMultipleBind from "./screen/KataSelectMultipleBind.svelte";
+  import KataTextAreaInputBind from "./screen/KataTextAreaInputBind.svelte";
   import KataTextInputBind from "./screen/KataTextInputBind.svelte";
 
   let name = "Niko";
@@ -27,5 +29,9 @@
 
   <!-- <KataRadioGroupBind /> -->
 
-  <KataCheckboxGroupBind />
+  <!-- <KataCheckboxGroupBind /> -->
+
+  <!-- <KataSelectMultipleBind /> -->
+
+  <KataTextAreaInputBind />
 </main>
